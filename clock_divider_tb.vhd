@@ -35,12 +35,6 @@ architecture tb of clock_divider_tb is
 	begin
 		enable_in <= '1';
 		reset_in <= '1';
-		wait for 2000000000 ns;
-		--enable_in <= '1';
-		--reset_in <= '0';
-		--wait for 20 ns;
-		--enable_in <= '0';
-		--reset_in <= '1';
-		--wait;
+		wait for 1000000000 ns;
 	end process;
 end tb;
